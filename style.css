@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  padding: 0px;
+  background: #8ab6e2;
+  align-content: center;
+  justify-content: center;
+}
+
+header {
+  background: #e149b8;
+  color: white;
+  padding: 2rem;
+  border-radius: 2%;
+}
+
+nav a {
+  margin-right: 50px;
+  color: #93ff07;
+  text-decoration: navy;
+}
+
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+
+.course-card {
+  background: rgb(247, 180, 180);
+  padding: 3rem;
+  width: 250px;
+  border-radius: 23px;
+  box-shadow: 0 0 10px #cccccc;
+}
+
+.video-section, .lessons, .progress {
+  padding: 1rem;
+  
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: rgb(193, 217, 186);
+  text-decoration: none;
+  border-radius: 5px;
+}
